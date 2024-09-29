@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    color: #333;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+.main-content .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-content .header h2 {
+    font-size: 24px;
+}
+
+.refresh-button {
+    background-color: #00b14f;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.students-table th,
+.students-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.students-table th {
+    background-color: #f0f0f0;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.not-checked {
+    color: #999;
+}
+
+.status.not-uploaded {
+    color: #ff9900;
+}
+
+.status.checked {
+    color: #00b14f;
+}
+
+.status.denied {
+    color: #ff3333;
+}
+
+.grade {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.grade-100 {
+    background-color: #00b14f;
+    color: white;
+}
+
+.grade-75 {
+    background-color: #0099cc;
+    color: white;
+}
+
+.grade-0 {
+    background-color: #ff3333;
+    color: white;
+}
